@@ -19,6 +19,8 @@ activity            activity            factor          1 WALKING
 subject             subject             integer         1..30
 ```
 ##Activity Recognition Measurements - all 88 calculated means of means and stds normalised between -1.0 and +1.0
+Each of the accelerometer and gyrometer measurements have 3 dimensional axes: X, Y and Z.
+Measurement units are time, frequency and angle. Only variable names that included "mean" or "std" were retained.
 ```
 Variable name                           Detailed Label      
 tbodyaccmeanx_1	                        Time body accelerometer mean X  
